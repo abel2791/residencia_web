@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Reysap-Aire Acondicionado y Refrigeracion</title>
+    <meta name="description" content="Reysap-Aire acondicionado y refrigeracion" />
+    <meta name="Keywords" content="paginaweb", paginaweb,  reysap, diseño, multimedia" />
+    <link rel=stylesheet href="css/estilo.css" type="text/css" />
+    <link rel="stylesheet" href="css/styles.css">
+   <script src="css/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="css/script.js"></script>
+
+  </head>
+  <body>
+     <div id="cajaheader">
+     </div>
+     <div id="principal" itempscope itemtype="http://www.data-vocabulary.org/person"> 
+             <div id="contenido">
+             <section id="reysap">
+                <img src="img/rey.png" style="position: absolute; top: 0; left: 0;" alt="Reysap-Aire Acondicionado y Refrigeracion"/>
+                <img src="img/iso.jpg" style="position: absolute; top: 0; right: 0;" alt="Reysap-Aire Acondicionado y Refrigeracion"/>
+             </section>
+	     <header>
+             <h2><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EN AIRE ACONDICIONADO  Y REFRIGERACION SOMOS TU MEJOR OPCION!!!</p></h2>
+             <div id='cssmenu'>
+             <ul>
+             <li class='has-sub'><a href='index.html'><span>INICIO</span></a>
+             <ul>
+             <!--<li><a href='MasProductos.html'><span>DISTRIBUCION</span></a></li>-->
+             <!--<li><a href='EquiposdeAC.html'><span>EQUIPOS DE AC</span></a></li>-->
+             <!--<li><a href='Refrigerantes.html'><span>REFRIGERANTES</span></a></li>-->
+             <!--<li><a href='Extractoresyventiladores.html'><span>EXTRACTORES</a></li>-->
+             <!--<li class='last'><a href='ProductosDanfoss.html'><span>PRODUCTOS</span></a></li>-->
+             </ul>
+             </li>
+             <li class='active'><a href='Nosotros.html'><span>NOSOTROS</span></a></li>
+             <li class='has-sub'><a href='Servicios.html'><span>SERVICIOS</span></a> 
+             <ul>
+             <!--<li><a href='venta.html'><span>VENTA</span></a></li> -->
+             <!--<li><a href='instalacion.html'><span>INSTALACION</span></a></li> -->
+             <!--<li><a href='mantenimiento.html'><span>MANTENIMIENTO</span></a></li> -->
+             <!--<li class='last'><a href='polizas.html'><span>POLIZAS PREVENTIVAS Y CORRECTIVAS</span></a></li> -->
+             </ul>
+            </li>
+
+             <li class='active'><a href='Proyectos.html'><span>PROYECTOS</span></a></li>
+             <li class='has-sub'><a href='galeria.html'><span>GALERIA DE FOTOS</span></a>
+              <ul>
+              <li><a href='proys.html'><span>PROYECTOS</span></a></li> 
+              <li><a href='sers.html'><span>SERVICIOS</span></a></li> 
+              <!-- <li><a href='minisplits.html'><span>MINISPLITS</span></a></li> -->
+              <!-- <li><a href='EquiposD.html'><span>EQUIPOS DIVIDIDOS</span></a></li> -->
+              <!-- <li><a href='paquetes.html'><span>PAQUETES</span></a></li> -->
+              <!-- <li class='last'><a href='chiller.html'><span>CHILLERS</span></a></li> -->
+            </ul> 
+          </li>
+          <li class='has-sub'><a href='#'><span>BLOG</span></a>
+           <ul>
+            <!--<li><a href='ofertas.html'><span>OFERTAS Y NOVEDADES</span></a></li>-->
+            <!--<li><a href='enterate.html'><span>REYSAP Y EL MEDIO AMBIENTE</span></a></li>-->
+            <!--<li class='last'><a href='Clientes.html'><span>QUIEN NOS RECOMIENDA</span></a></li>-->
+           </ul>
+          </li>
+            <li class='last'><a href='Contactanos.html'><span>CONTACTANOS</span></a></li>
+             </ul>
+            </div>           
+	     </header>
+             <br>
+             <br>
+             <br>
+             <img src="img/mapa1.png" style="position: absolute; top; right:0;" alt="Reysap-Aire Acondicionado y Refriegracion"/>
+             <div id="contenido" style=padding-left:40px;">
+              <h2>MATRIZ REYSAP<br>
+              Prol.Calzada de Guadalupe No. 890 Esq. Con Virreina Col.<br>
+              Tepeyac<br>
+              San Luis Potosi, S.L.P México<br>
+              Tel. (444) 8206940 / 82069 74 / 79992239 / 7992241<br>
+              <br>
+              REYSAP INDUSTRIAS<br>
+              Av. Pemex 1325 eje 134<br>
+              Zona Industrial de San Luis Potosí.<br>
+              <br>
+              CAMPAMENTO MINERA<br>
+              Calle 5 de Mayo No. 2<br>
+              Mazapil, Zacatecas.
+            </h2>  
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+             <form action="enviamail.php" method="post">
+              <table border=0>
+		<tr>
+		 <td>Nombre
+		  </td>
+		    <td>
+		      <input type="text" width=100% required name="nombre" />
+		    </td>
+                  </tr>
+                <tr>
+                <td>Direccion
+                </td>
+                <td>
+                  <input type="text" width=100% required name="direccion" />
+                </td>
+               </tr>
+              
+               <tr>
+               <td>Telefono
+               </td>
+               <td>
+                 <input type="text" width=100% required name="telefono" />
+               </td>
+              </tr>
+                  <tr>
+		    <td>
+			Email
+                    </td>
+                    <td>
+                      <input type=email width=100% value="" required name="email" />
+                    </td>
+                  </tr>
+	           <tr>
+                    <td>
+                     Comentarios
+                   </td>
+                  <td>
+                      <textarea cols=40 rows=6 required name="comentario"></textarea>
+                   </td>
+                  </tr>
+                   <tr>
+                     <td>
+                     </td>
+                      <td>
+                        <input type="submit"  value="Enviar">
+                      </td>
+                     </tr>
+                </table>
+               </form>
+             <br />
+            
+             </div>
+	     <footer>
+	       <h6>
+                   <div class="vcard">		
+			<div> <span class="Direccion"></span><span class ="locality"></span><span class="country-name"></span></div>
+                        <div> <span class="tels"></span><br /><span class="Para Ingenieria y Proyectos"></span></div>
+                        <div> <span class="Para servicios y mantenimientos"></span></div>
+                        <div id="social-network"><a href="https://www.facebook.com/reysap.slp?fref=ts" target="_blank"><img src="images/Facebook.png" alt="Facebook"/></a></div>
+                        <h6>¡Visítanos! en Facebook</h6>
+                        <a href="http://www.reysap.com.mx/AP/Aviso%20de%20privacidad%20de%20datos%20personales%20WEB%20REYSAP.htm">Aviso de Privacidad</a>
+                    </div>
+                </h6>
+            </footer>
+        </div>
+     </body>
+</html>
+
+
+
+
+
+
+
+
+
