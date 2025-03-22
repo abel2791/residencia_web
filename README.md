@@ -1,6 +1,6 @@
 # Residencia Web
 
-### Descripcion 
+### Descripción 
 Este proyecto es una página web básica desarrollada para la empresa
 Reysap Aire Acondicionado y Refigeración.
  -Registra usuarios en una base de datos MYSQL.
